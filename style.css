@@ -1,0 +1,66 @@
+body{
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+}
+
+h2 {
+    color: maroon;
+    text-align: center;
+}
+
+.lists {
+    position: relative;
+    left: 50px;
+}
+
+.lists ul, .lists ol {
+    border: solid maroon 2px;
+    display: inline-block;
+}
+
+img {
+    border-radius: 30%;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+
+.lorem-text {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    top: 80px;
+}
+
+.got-table {
+    position: relative;
+    top: 70px;
+    margin: auto;
+}
+
+.got-table td, .got-table th{
+    border: solid maroon 2px;
+}
+
+.fav-pizza {
+    position: relative;
+    top: 30px;
+}
+
+video {
+    position: absolute;
+    top: 525px;
+    right: 75px;
+}
+
+form p {
+    font-weight: bold;
+}
+
+.author {
+    font-weight: bold;
+}
